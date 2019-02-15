@@ -8,3 +8,8 @@ The App uses the following technologies:
 
 #### This application works best with
 [songoco-api](https://github.com/msbir/songoco-api)
+
+- git clone
+- fill values in common/config.js
+- npm install
+- npm run dev
