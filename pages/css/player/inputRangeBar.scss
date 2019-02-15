@@ -1,0 +1,32 @@
+$inputColor: #3071a9;
+
+.playerWrapper {
+  width: 100%;
+}
+.mainRange{
+  width:100%;
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mainRange::-webkit-slider-runnable-track {
+  width: 50%;
+  height: 8.4px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  //background: $inputColor;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+.mainRange::-webkit-slider-thumb {
+  margin-top: -4px;
+}
